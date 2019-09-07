@@ -1,0 +1,410 @@
+@media screen and (max-width: 1300px) {
+  //container
+  .appointBox-container {
+    padding: 0 30px;
+  }
+  //banner
+  .banner {
+    .header {
+      .black-logo {
+        display: none;
+      }
+    }
+
+    .complete-booking {
+      .appointBox-container {
+        .booking-content {
+          & > h1 {
+            font-size: 5vw;
+            line-height: 6.6vw;
+          }
+        }
+      }
+    }
+  }
+  //services
+  .services {
+    .appointBox-container {
+      .services-boxes {
+        .box {
+          p {
+            padding: 9px 1.5vw;
+          }
+        }
+      }
+    }
+  }
+  .free-consultation {
+    .appointBox-container {
+      padding: 0 !important;
+    }
+  }
+}
+
+@media screen and (max-width: 1141px) {
+  .plans {
+    .appointBox-container {
+      padding: 30px;
+
+      .plans-body {
+        .plan {
+          height: auto;
+        }
+      }
+    }
+  }
+  .banner {
+    .complete-booking {
+      .appointBox-container {
+        display: grid;
+        grid-template-columns: 60% 40%;
+
+        .booking-content {
+          & > h1 {
+            margin: 16vw 0 68px;
+          }
+        }
+      }
+    }
+
+    .square {
+      width: 1.7vw !important;
+      height: 1.7vw !important;
+    }
+
+    .dot {
+      width: 1.7vw !important;
+      height: 1.7vw !important;
+    }
+  }
+}
+
+@media screen and (max-width: 900px) {
+  //banner
+  .banner {
+    .header {
+      background-color: #ffffff;
+      padding: 31px 0;
+
+      .ml-cols {
+        .logo {
+          display: none;
+        }
+
+        .black-logo {
+          display: block;
+        }
+      }
+
+      .header-nav {
+        display: none;
+      }
+
+      .menu {
+        display: grid;
+      }
+    }
+
+    .complete-booking {
+      padding-top: 200px;
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .features {
+    .appointBox-container {
+      .features-heading {
+        font-size: 25px;
+        max-width: 443px;
+      }
+    }
+  }
+  .services {
+    .appointBox-container {
+      .services-boxes {
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+  //banner
+  .banner {
+    .complete-booking {
+      .appointBox-container {
+        .booking-content {
+          & > button {
+            padding: 2vw 4vw;
+            margin-left: 5vw;
+            font-size: 13px;
+          }
+
+          & > h1 {
+            margin: 11vw 0 55px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  //.banner .complete-booking .appointBox-container
+  .banner {
+    .complete-booking {
+      padding-top: 150px;
+
+      .appointBox-container {
+        display: block;
+        position: relative;
+        padding-bottom: 47vw !important;
+        height: auto;
+
+        .booking-content {
+          z-index: 11;
+          position: relative;
+
+          & > h1 {
+            margin: 5vw 0 55px;
+            font-size: 42px;
+            line-height: 46px;
+            text-align: center;
+          }
+        }
+
+        .booking-img {
+          position: absolute;
+          width: 29vw;
+          left: 52vw;
+          top: 128px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+
+  .free-consultation {
+    .appointBox-container {
+      .free-consultation-content {
+        & > h1 {
+          font-size: 25px;
+        }
+
+        & > button {
+          padding: 10px 27px 11px;
+        }
+      }
+    }
+  }
+  .imac{
+    margin: 60px 0;
+  }
+  .banner {
+    .complete-booking {
+      .appointBox-container {
+
+        .booking-content {
+          & > h1 {
+            font-size: 8vw;
+            line-height: 9vw;
+            margin: 5vw 0 9vw;
+          }
+        }
+        .booking-img {
+          top: 27vw;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 470px) {
+
+  .appointBox-container {
+    padding: 0 20px !important;
+  }
+  .features {
+    .boxes {
+      .box {
+        padding: 20px;
+      }
+    }
+  }
+  .news {
+   .news-btn{
+     margin-bottom: 100px;
+   }
+  }
+  .services {
+    .appointBox-container {
+      padding-bottom: 100px !important;
+    }
+  }
+  .plans {
+    .appointBox-container {
+      padding: 30px 20px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 436px) {
+  .features {
+    .appointBox-container {
+      .features-heading {
+        font-size: 21px;
+      }
+    }
+  }
+
+  .plans {
+    .appointBox-container {
+      .plans-body {
+        .plan {
+          .list-group {
+            .list-group-item {
+              font-size: 15px;
+            }
+            .emoji {
+              width: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+  .features {
+    .boxes {
+      grid-template-columns: none;
+    }
+  }
+  .news {
+    .appointBox-container {
+      .news-body {
+        grid-template-columns: none;
+      }
+    }
+  }
+  .plans {
+    .appointBox-container {
+      .plans-body {
+        grid-template-columns: none;
+      }
+    }
+  }
+  .services {
+    .appointBox-container {
+      .services-heading {
+        padding: 60px 0;
+        h1 {
+          font-size: 27px;
+          margin-bottom: 5px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .features {
+    .boxes {
+      .box {
+        .box-header {
+          & > h3 {
+            font-size: 24px !important;
+          }
+        }
+        p{
+          font: 15px/27px PTSansRegular, Arial, Helvetica, sans-serif;
+        }
+      }
+    }
+  }
+  .plans {
+    .appointBox-container {
+      .plans-heading {
+        font-size: 27px;
+      }
+      .plans-body {
+        .plan {
+          & > h2{
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .banner {
+    .complete-booking {
+      .appointBox-container {
+        .booking-content {
+         & > h1 {
+           font-size: 8.5vw;
+           line-height: 10vw;
+           margin: 1vw 0 10vw;
+         }
+          & > button {
+            padding: 3vw 6vw;
+            margin-left: 5vw;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .features {
+    .appointBox-container {
+      .features-heading {
+        padding: 66px 0;
+        font-size: 18px;
+      }
+    }
+  }
+  .news {
+    .appointBox-container {
+      .news-header {
+        h1 {
+          font-size: 27px;
+        }
+        p{
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .free-consultation {
+    .appointBox-container {
+      .free-consultation-content {
+      & > h1{
+        font-size: 22px;
+      }
+        & > button{
+          padding: 11px 27px 9px;
+        }
+      }
+    }
+  }
+  //.features .appointBox-container .features-head7ng
+  .features {
+    .boxes {
+      .box {
+        .box-header {
+          & > h3{
+            font-size: 24px;
+          }
+        }
+        p{
+          font:15px/27px PTSansRegular, Arial, Helvetica, sans-serif;
+        }
+      }
+    }
+  }
+}
